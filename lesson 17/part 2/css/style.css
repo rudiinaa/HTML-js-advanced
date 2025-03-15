@@ -1,0 +1,58 @@
+:root{
+    --primary-color:#06206a;
+    --secondary-color: #fff;
+    --padding:20px;
+}
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+#example-one{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #BADA55;
+}
+#example-two{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    border: 3px solid #BADA55;
+}
+#example-three{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    
+    background-image: url(https://w7.pngwing.com/pngs/36/87/png-transparent-chinese-pattern-background-texture-chinese-style-textile-thumbnail.png);
+}
+#example-four{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px 70px 5px;
+    background-color: #BADA55;
+}
+#example-five{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px/30px;
+    background-color: #BADA55;
+}
+#example-six{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px/30px;
+    background-color: #BADA55;
+}
