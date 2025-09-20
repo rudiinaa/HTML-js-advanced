@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;  /* Center the container */
+  padding: 20px;
+  background-color: #0d457c;
+}
+.row {
+  display: flex;   /* Enable Flexbox for easy column arrangement */
+  gap: 15px;       /* Space between columns */
+}
+.col {
+  flex: 1;                     /* Make each column take equal width */
+  padding: 20px;               /* Add padding inside each column */
+  background-color: #e9ecef;   /* Light background color for each column */
+  border: 1px solid #ced4da;   /* Light border around columns */
+  border-radius: 8px;          /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(209, 11, 11, 0.1); /* Subtle shadow */
+  text-align: center;          /* Center the text inside each column */
+  font-size: 16px;
+  font-weight: 500;
+}
